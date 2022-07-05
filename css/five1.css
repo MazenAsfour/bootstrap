@@ -1,0 +1,99 @@
+
+.content1{
+    width:100%;
+    background-color: rgb(38, 38, 73);
+    margin-top: 0;
+}
+.content1  h1{
+    font-size: 4vw;
+    color:rgb(224, 24, 24);
+    text-align: center;
+    height: 5hw;
+    margin-bottom: 2vw;
+    font-family: cursive;
+    letter-spacing: 1px;
+
+}
+.content1 .people1{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(38, 38, 73,1);
+    margin: -2% auto;
+}
+
+.person1,.person2,.person3,.person4{
+background-color: rgb(243, 236, 243);
+width:20vw;
+height: 0%;
+display: inline-block;
+opacity: .8.5;
+margin: 1%;
+border: none;
+outline: none;
+border-radius: 10px;
+}
+.content1 img{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    width: 99%;
+    height: 40%;
+    padding-top: 2%;
+    padding:2% 15%;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.content1 .people1 i:hover{
+    color:red;
+}
+.content1 .people1 i{
+    display: inline;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 129%;
+    padding-top: 1%;
+}
+.content1 h3{
+    text-align: center;
+    padding-top:0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.content1 p{
+    text-align: center;
+    color: rgb(48, 47, 47);
+    letter-spacing: 1px;;
+}
+.content1 img:hover{
+    opacity: .4;
+}
+
+.content1 .btn1{
+    padding-left: 38%;
+    text-align: center;
+    padding-top: 0;
+
+    
+}
+
+
+@media (max-width:500px){
+    
+    .content .people i{
+        display: none;
+    }
+}
+#a1{
+    text-align: center;
+    padding-top:5%;
+}
+
+
+
+
+
+
+
+
+
